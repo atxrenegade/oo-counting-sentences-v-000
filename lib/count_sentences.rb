@@ -17,6 +17,6 @@ class String
     string_array.empty?
         return 0 
     string_array.size
-    end  
+  
   end  
 end   
