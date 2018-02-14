@@ -15,10 +15,11 @@ class String
   def count_sentences
     
     string_array = self.scan(/[^\.!?]+[\.!?]/).map(&:strip)
-    if string_array.size = nil 
-      string = 0 
+    size = string_array.size  
+      if size == nil 
+        return 0 
     else
-      return string.size
+      return size
     end  
     binding.pry
   end  
