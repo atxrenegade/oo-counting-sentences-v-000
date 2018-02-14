@@ -16,7 +16,7 @@ class String
     string_array = self.scan(/[^\.!?]+[\.!?]/).map(&:strip)
     size = string_array.size  
     if size == nil 
-        return 0 
+      return 0 
     else
       return size
     end  
