@@ -19,17 +19,4 @@ class String
     string_array.size
     end  
   end  
-  
-  def count_sentences
-    array = self.split(/!|\.|\.'|\?/)
-    array.map! do |sentence|
-      if sentence.empty?
-        sentence = nil
-      else
-        sentence
-      end
-    end
-    array.compact!
-    array.count
-end
 end   
