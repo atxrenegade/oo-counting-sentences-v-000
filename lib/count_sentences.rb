@@ -13,7 +13,7 @@ class String
     self.end_with?("!")
   end  
   def count_sentences
-    self.split()
+    self.split(/!|\.|\.'|\?/)
     self.count
   end  
 end   
