@@ -19,6 +19,7 @@ class String
       string = 0 
     else
       return string.count
+    end  
     binding.pry
   end  
 end   
